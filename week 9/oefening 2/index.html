@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet"  href="./css/main.css">
+</head>
+<body>
+    <h1>Wat weet jij over de mol?</h1>
+    <form>
+        <div>
+            <label for="t-shirt">Welke kleur T-shirt had de mol vandaag aan?"</label>
+            <input id="t-short" required minlength="4" maxlength="10">
+        </div>
+        <div>
+            <legend>Sliep de mol vannacht in de auto?<abbr title="This field is mandatory"></abbr></legend>
+            <input type="radio" required name="title" id="r1" value="yer"><label for="r1">yes</label>
+            <input type="radio" required name="title" id="r2" value="no"><label for="r2">No</label>
+        </div>
+        <div>
+            <label for="t-shirt">Hoe oud schat je de mol?"</label>
+            <input type="number" min="21" max="120" step="1" id="n1" name="age"
+           pattern="\d+">
+        </div>
+        <div>
+            <label for="t2">What's your e-mail?</label>
+            <input type="email" id="t2" name="email">
+        </div>
+        <div>
+
+        </div>
+    </form>
+</body>
+</html>
